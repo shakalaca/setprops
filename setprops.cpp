@@ -163,7 +163,7 @@ bool is_delprops(char* name) {
         start++;
     }
 
-    if (start + strlen("delprops") == name + full_length) {
+    if ((start + strlen("delprops") == name + full_length) && !strcmp(start, "delprops")) {
         return true;
     }
 
