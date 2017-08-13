@@ -1,5 +1,6 @@
 #include <fcntl.h>
 #include <string>
+#include <unistd.h>
 
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
